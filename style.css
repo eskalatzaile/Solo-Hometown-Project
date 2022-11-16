@@ -1,0 +1,156 @@
+@font-face {
+    font-family: CaviarDreams;
+    src: url("fonts/CaviarDreams.ttf") format('trutype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: CaviarDreams;
+    src: url("fonts/CaviarDreams_Bold.tff") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: CaviarDreams;
+    src: url("fonts/CaviarDreams_BoldItalic.ttf") format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: CaviarDreams;
+    src: url("fonts/CaviarDreams_Italic.ttf") format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: FlowerDream;
+    src: url("fonts/Flower Dream.otf") format('opentype');
+}
+
+@font-face {
+    font-family: Autography;
+    src: url("fonts/Autography.otf") format('opentype');
+}
+
+@font-face {
+    font-family: BeyondInfinity;
+    src: url("fonts/Beyond Infinity - Demo.ttf") format('truetype');
+}
+
+body{
+    margin: 0;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 350px;
+    background-image: url("images/iceland.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0px 0px;
+    padding: 100px 10px;
+}
+
+#header-text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: whitesmoke;
+    text-shadow: 0 0 30px black;
+    background-color: rgba(0, 0, 0, 0.596);
+    padding: 10px 150px 20px 150px;
+    margin: 0 auto;
+
+}
+
+.title-format{
+    font-family: FlowerDream;
+    font-weight: lighter;
+    font-size: 100px;
+    margin: 5px auto;
+}
+
+.subtitle-format{
+    font-family: BeyondInfinity;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    margin: 5px auto;
+}
+
+#things-to-do{
+    display: flex;
+    justify-content: space-around; 
+    font-family: BeyondInfinity;
+    font-size: 20px;
+    margin: 0px;
+    background-color: #ebeff0;
+    text-align: center;
+    padding: 60px 0px 10px 0px;
+}
+
+.icon-img {
+    width: 90px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 2px solid #333d3f;
+    border-radius: 10px;
+    margin: -10px 0px;
+}
+
+.title-box {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px 0px 0px;
+    font-family: FlowerDream;
+    background-color: #333d3f;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.location-box {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+    font-family: FlowerDream;
+    background-color: #333d3f;
+    color: #333d3f;
+    text-align: center;
+}
+
+.location-img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    padding: 20px;
+}
+
+.location-img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+}
+
+.information-box {
+    display: block;
+    block-size: fit-content;
+    border: 2px solid whitesmoke;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #ebeff0;
+    width: 100%;
+    height: auto;
+}
+
+
